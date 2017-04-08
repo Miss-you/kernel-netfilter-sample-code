@@ -1,7 +1,7 @@
 KERNEL_VER = $(shell uname -r)
 
 # the file to compile
-obj-m += helloworld.obj
+obj-m += helloworld.o
 
 # specify flags for the module compilation
 EXTRA_CFLAGS = -g -O0
