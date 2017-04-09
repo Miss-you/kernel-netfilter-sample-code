@@ -1,0 +1,12 @@
+#*.o
+#*.[ab], ignore name like *.a and *.b
+*.ko
+*.o
+*.cmd
+*.order
+*.symvers
+*.mod.c
+*.temp_versions
+*.mod
+
+#!a.c , not ignore a.c
